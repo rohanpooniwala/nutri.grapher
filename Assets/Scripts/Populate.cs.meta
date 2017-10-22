@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ad0ab46ddd68e6c4b898a96993639f46
+timeCreated: 1508561078
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - recipeObject: {fileID: 1845085395530330, guid: 9b4e0a53b9c9a0e4485b9ae5c0eecb58,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
