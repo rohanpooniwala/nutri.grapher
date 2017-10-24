@@ -55,7 +55,11 @@ def ingredients2nutritions(ingredients):
             # for nutrient in list(sorted(nutrients_in_ingredient.keys())):
             #     if nutrient in nutrient_list:
             #     print(ingredient, nutrient, nutrients_in_ingredient[nutrient])
-                d.append(nutrients_in_ingredient[nutrient]/max_val_nutrients[nutrient])
+
+                if nutrients_in_ingredient[nutrient] != None:
+                    d.append(float(nutrients_in_ingredient[nutrient])/float(max_val_nutrients[nutrient]))
+                else:
+                    d.append(float(0))
             d.append(d[0])
             data[ingredient] = d
     return theta, data
